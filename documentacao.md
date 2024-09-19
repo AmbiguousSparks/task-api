@@ -13,16 +13,13 @@ Acesso a um editor de código e ao terminal (ou PowerShell).
 
 1. Clone o repositório ou copie o código-fonte da API:
 ```
-https://github.com/AmbiguousSparks/task-api.git
 ```
 2. Instale as dependências: No diretório raiz do projeto, execute o seguinte comando no terminal para instalar as dependências:
 
 ```
-npm install
 ```
 3. Inicie o servidor: Após a instalação das dependências, inicie o servidor da API com o comando:
 ```
-npm start
 ```
 
 4. Acesse a API: A API estará disponível em http://localhost:3000. Use ferramentas como Postman ou cURL para fazer as requisições.
@@ -34,7 +31,6 @@ Todas as requisições à API exigem autenticação por meio de Bearer Token.
 Token de acesso:
 
 ```
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 ```
 
 O token deve ser enviado no header da requisição:
@@ -69,20 +65,10 @@ Exemplo de Payload:
 
 
 ```json
-{
-  "title": "Nova Tarefa",
-  "description": "Descrição da tarefa"
-}
 ```
 **Resposta de Sucesso:**
 
 ```json
-{
-  "id": 3,
-  "title": "Nova Tarefa",
-  "description": "Descrição da nova tarefa",
-  "status": "pendente"
-}
 
 ```
 
